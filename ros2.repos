@@ -183,6 +183,10 @@ repositories:
     type: git
     url: https://github.com/ros/ros_tutorials.git
     version: rolling
+  ros2/console_bridge_vendor:
+    type: git
+    url: https://github.com/ros2/console_bridge_vendor.git
+    version: rolling
   ros/urdfdom:
     type: git
     url: https://github.com/ros/urdfdom.git
@@ -198,10 +202,6 @@ repositories:
   ros2/common_interfaces:
     type: git
     url: https://github.com/ros2/common_interfaces.git
-    version: rolling
-  ros2/console_bridge_vendor:
-    type: git
-    url: https://github.com/ros2/console_bridge_vendor.git
     version: rolling
   ros2/demos:
     type: git
