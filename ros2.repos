@@ -161,7 +161,7 @@ repositories:
     version: rolling
   ros/kdl_parser:
     type: git
-    url: https://github.com/CursedRock17/kdl_parser/tree/rolling
+    url: https://github.com/ros/kdl_parser.git
     version: rolling
   ros/pluginlib:
     type: git
