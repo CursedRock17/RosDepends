@@ -9,3 +9,6 @@ cd .. && rm -rf ros2_rolling && mkdir -p ~/ros2_rolling/src && cd ~/ros2_rolling
 
 Before building run the following commands:
   - `brew uninstall orocos-kdl`
+
+Then run:
+  - `. ~/ros2_rolling/install/setup.zsh`
