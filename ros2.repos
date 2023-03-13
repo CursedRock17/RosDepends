@@ -371,14 +371,14 @@ repositories:
     type: git
     url: https://github.com/ros2/rpyutils.git
     version: rolling
-  ros2/rviz:
+  Yadunund/rviz:
     type: git
-    url: https://github.com/ros2/rviz.git
+    url: https://github.com/Yadunund/rviz
     version: rolling
   ros2/spdlog_vendor:
     type: git
     url: https://github.com/ros2/spdlog_vendor.git
-    version: rolling
+    version: yadu/fix_osx_build
   ros2/sros2:
     type: git
     url: https://github.com/ros2/sros2.git
