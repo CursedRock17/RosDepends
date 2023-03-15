@@ -21,3 +21,4 @@ When building Additional Ros tools:
  - `sudo ln -s "$(brew --prefix llvm@{wanted version})/bin/clang-format" "/usr/local/bin/clang-format-{wanted version}"`
 
 Need to fix patch files
+- Rename the FeatureSummary files to OgreFeatureSummary
