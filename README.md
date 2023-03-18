@@ -22,3 +22,6 @@ When building Additional Ros tools:
 
 Need to fix patch files
 - Rename the FeatureSummary files to OgreFeatureSummary
+
+Continious Integration (CI)
+ - Setup Github actions with Act
