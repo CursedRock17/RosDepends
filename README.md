@@ -25,3 +25,6 @@ Need to fix patch files
 
 Continious Integration (CI)
  - Setup Github actions with Act
+ or
+ - CMake Catkin from source repo https://github.com/ros/catkin
+ - Create and source (source /Users/cursedrock17/catkin/build/devel/setup.zsh) a Catkin Workspace
