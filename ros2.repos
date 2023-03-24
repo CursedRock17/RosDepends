@@ -61,7 +61,7 @@ repositories:
     version: master
   osrf/osrf_testing_tools_cpp:
     type: git
-    url: https://github.com/CursedRock17/osrf_testing_tools_cpp.git
+    url: https://github.com/osrf/osrf_testing_tools_cpp
     version: master
   ros-perception/image_common:
     type: git
@@ -277,7 +277,7 @@ repositories:
     version: rolling
   ros2/rclpy:
     type: git
-    url: https://github.com/ros2/rclpy.git
+    url: https://github.com/CursedRock17/rclpy
     version: rolling
   ros2/rcutils:
     type: git
