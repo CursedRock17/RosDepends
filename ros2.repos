@@ -277,7 +277,7 @@ repositories:
     version: rolling
   ros2/rclpy:
     type: git
-    url: https://github.com/CursedRock17/rclpy.git
+    url: https://github.com/ros2/rclpy.git
     version: rolling
   ros2/rcutils:
     type: git
