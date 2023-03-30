@@ -48,6 +48,6 @@ Continious Integration (CI)
  
  - I run a small script of : `ros2 run industrial_ci run_ci ~/workspace_location/src/package_to_test` with my locations and packages subbed in, to which we should run into some errors during the docker pull:
  `line 199: 1679972928N: value too great for base (error token is "1679972928N")`
- `/moveit2_ws/install/industrial_ci/share/industrial_ci/src/run.sh: No such file or directory`
+ `/moveit2_ws/install/industrial_ci/share/industrial_ci/src/run.sh: No such file or directory` Solve this by removin all instances of `%N`, whcih should 2, in the run_sh script.
  
  
