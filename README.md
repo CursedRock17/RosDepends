@@ -50,4 +50,5 @@ Continious Integration (CI)
  `line 199: 1679972928N: value too great for base (error token is "1679972928N")`
  `/moveit2_ws/install/industrial_ci/share/industrial_ci/src/run.sh: No such file or directory` Solve this by removin all instances of `%N`, whcih should 2, in the run_sh script.
  
+- We now need to use an image that fits to arm64 instead of the linux/amd64 listed on dockerhub
  
