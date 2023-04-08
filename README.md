@@ -52,3 +52,6 @@ Continious Integration (CI)
  
 - We now need to use an image that fits to arm64 instead of the linux/amd64 listed on dockerhub
  
+## Launching Moveit 2 
+  We need to clone the following packages from source into our repo:
+  [angles](https://github.com/ros/angles), [eigen_stl_containers](https://github.com/ros/eigen_stl_containers), [fcl](https://github.com/flexible-collision-library/fcl), [geometric_shapes](https://github.com/ros-planning/geometric_shapes),
