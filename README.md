@@ -64,3 +64,4 @@ Continious Integration (CI)
     set(CMAKE_CXX_STANRDARD_REQUIRED TRUE)
   endif()
   ```
+  - Need to include glog via `glog::glog`
