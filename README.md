@@ -55,3 +55,12 @@ Continious Integration (CI)
 ## Launching Moveit 2 
   We need to clone the following packages from source into our repo:
   [angles](https://github.com/ros/angles), [eigen_stl_containers](https://github.com/ros/eigen_stl_containers), [fcl](https://github.com/flexible-collision-library/fcl), [geometric_shapes](https://github.com/ros-planning/geometric_shapes), [launch_param_builder](https://github.com/PickNikRobotics/launch_param_builder), [object_recognition_msgs](https://github.com/wg-perception/object_recognition_msgs), [octomap](https://github.com/OctoMap/octomap), [octomap_msgs](https://github.com/OctoMap/octomap_msgs), [random_numbers](https://github.com/roshttps://github.com/OctoMap/octomap_msgsplanning/random_numbers), [rosparam_shortcuts](https://github.com/PickNikRobotics/rosparam_shortcuts), [ruckig](https://github.com/pantor/ruckig), [srdfdom](https://github.com/ros-planning/srdfdom)
+  
+  - We need to remove all `std::tr1::unordered_map` and `std::tr1::unordered_set` definitions from the code by simply removing tr1 and moving as usual
+  - May need to add C++14 to files that cannot run boost due to version problems so :
+  ```
+  if (NOT CMAKE_CXX_STANDARD)
+    set(CMAKE_CXX_STANDARD 14)
+    set(CMAKE_CXX_STANRDARD_REQUIRED TRUE)
+  endif()
+  ```
