@@ -65,3 +65,4 @@ Continious Integration (CI)
   endif()
   ```
   - Need to include glog via `glog::glog`
+  - Need to remove some boost definitions like `signals` which is no longer a package
