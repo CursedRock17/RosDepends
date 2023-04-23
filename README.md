@@ -64,6 +64,10 @@ Continious Integration (CI)
     set(CMAKE_CXX_STANRDARD_REQUIRED TRUE)
   endif()
   ```
+  ### ROS bridge:
   - Need to include glog via `glog::glog`
   - Need to remove some boost definitions like `signals` which is no longer a package
   - Ros Install with sudo  ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/opt/homebrew/bin/python3.11
+  - Replace condattr_setclock with condattr_setpthread
+  - Remove the @ in gencpp/scripts/msg.h.template in the const char* value() return 
+  
