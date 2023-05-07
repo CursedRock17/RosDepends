@@ -52,7 +52,7 @@ Continious Integration (CI)
  
 - We now need to use an image that fits to arm64 instead of the linux/amd64 listed on dockerhub
  
-## Launching Moveit 2 
+## Launching Moveit 2 (Currently not available)
   We need to clone the following packages from source into our repo:
   [angles](https://github.com/ros/angles), [eigen_stl_containers](https://github.com/ros/eigen_stl_containers), [fcl](https://github.com/flexible-collision-library/fcl), [geometric_shapes](https://github.com/ros-planning/geometric_shapes), [launch_param_builder](https://github.com/PickNikRobotics/launch_param_builder), [object_recognition_msgs](https://github.com/wg-perception/object_recognition_msgs), [octomap](https://github.com/OctoMap/octomap), [octomap_msgs](https://github.com/OctoMap/octomap_msgs), [random_numbers](https://github.com/roshttps://github.com/OctoMap/octomap_msgsplanning/random_numbers), [rosparam_shortcuts](https://github.com/PickNikRobotics/rosparam_shortcuts), [ruckig](https://github.com/pantor/ruckig), [srdfdom](https://github.com/ros-planning/srdfdom)
   
