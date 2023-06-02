@@ -1,0 +1,65 @@
+repositories:
+  launch_param_builder:
+    type: git
+    url: https://github.com/PickNikRobotics/launch_param_builder
+    version: main
+  moveit2:
+    type: git
+    url: https://github.com/ros-planning/moveit2
+    version: humble
+  moveit_resources:
+    type: git
+    url: https://github.com/ros-planning/moveit_resources
+    version: humble
+  moveit_task_constructor:
+    type: git
+    url: https://github.com/ros-planning/moveit_task_constructor.git
+    version: humble
+  moveit_visual_tools:
+    type: git
+    url: https://github.com/ros-planning/moveit_visual_tools
+    version: ros2
+  rosparam_shortcuts:
+    type: git
+    url: https://github.com/PickNikRobotics/rosparam_shortcuts
+    version: ros2
+  srdfdom:
+    type: git
+    url: https://github.com/ros-planning/srdfdom.git
+    version: ros2  
+  object_recognition_msgs:
+    type: git
+    url: https://github.com/wg-perception/object_recognition_msgs.git
+    version: ros2
+   random_number:
+    type: git
+    url: https://github.com/ros-planning/random_numbers.git
+    version: ros2
+   generate_parameter_library:
+    type: git
+    url: https://github.com/PickNikRobotics/generate_parameter_library.git
+    version: main
+   tcb_span:
+    type: git
+    url: https://github.com/PickNikRobotics/cpp_polyfills.git
+    version: main
+   rsl:
+    type: git
+    url: https://github.com/PickNikRobotics/RSL.git
+    version: main
+   stomp:
+    type: git
+    url: https://github.com/ros-industrial/stomp.git
+    version: main
+   ros_industrial_cmake_boilerplate:
+    type: git
+    url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
+    version: master
+   control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs.git
+    version: foxy-devel
+   controller_manager_msgs:
+    type: git
+    url: https://github.com/ros-controls/ros2_control.git
+    version: master
