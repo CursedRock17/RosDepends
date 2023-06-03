@@ -64,6 +64,10 @@ Continious Integration (CI)
     set(CMAKE_CXX_STANRDARD_REQUIRED TRUE)
   endif()
   ```
+  - Apple Clang doesn't support all features such as, but not limited to :
+      - Floating Point Values in std::from_chars : Must become integers
+      - 
+  
   ### ROS bridge:
   - Need to include glog via `glog::glog`
   - Need to remove some boost definitions like `signals` which is no longer a package
