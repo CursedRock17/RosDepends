@@ -6,7 +6,7 @@ repositories:
   moveit2:
     type: git
     url: https://github.com/ros-planning/moveit2
-    version: humble
+    version: main
   moveit_resources:
     type: git
     url: https://github.com/ros-planning/moveit_resources
@@ -79,3 +79,23 @@ repositories:
     type: git
     url: https://github.com/pal-robotics/backward_ros.git
     version: foxy-devel
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: ros2
+  octomap_msgs:
+    type: git
+    url: https://github.com/octomap/octomap_msgs.git
+    version: ros2
+  angles:
+    type: git
+    url: https://github.com/ros/angles.git
+    version: ros2
+  eigen_stl_containers:
+    type: git
+    url: https://github.com/ros/eigen_stl_containers.git
+    version: ros2
+  geometric_shapes:
+    type: git
+    url: https://github.com/ros-planning/geometric_shapes.git
+    version: ros2
