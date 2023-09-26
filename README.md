@@ -9,17 +9,10 @@ Before building run the following command:
   - `brew uninstall orocos-kdl`
   
 Additional Package Commands for Debuggig:
-  - --package-up-to
+  - --packages-up-to
   - --packages-ignore
 
-`cd .. && rm -rf ros2_rolling && mkdir -p ~/ros2_rolling/src && cd ~/ros2_rolling && vcs import --input https://raw.githubusercontent.com/CursedRock17/RosDepends/main/ros2.repos src && cd ~/ros2_rolling/ && colcon build --symlink-install --packages-skip-by-dep python_qt_binding --package-up-to rviz_ogre_vendor --event-handlers console_direct+`
-
-At this point we need to fix patch files I found these with a fuzzy finder and grep
-- Rename the FeatureSummary file to OgreFeatureSummary
-- Rename the `find_package(FeatureSummary)` to `find_package(OgreFeatureSummary)`
-
-Now we should be able to finish the install so run the normal build statement:
-`cd ~/ros2_rolling/ && colcon build --symlink-install --packages-skip-by-dep python_qt_binding --event-handlers console_direct+`
+`cd .. && rm -rf ros2_rolling && mkdir -p ~/ros2_rolling/src && cd ~/ros2_rolling && vcs import --input https://raw.githubusercontent.com/CursedRock17/RosDepends/main/ros2.repos src && cd ~/ros2_rolling/ && colcon build --symlink-install --packages-skip-by-dep python_qt_binding --event-handlers console_direct+`
 
 Then run:
   - `. ~/ros2_rolling/install/setup.zsh`
