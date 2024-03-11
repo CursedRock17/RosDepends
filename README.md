@@ -14,6 +14,11 @@ Additional Package Commands for Debuggig:
 
 `cd .. && rm -rf ros2_rolling && mkdir -p ~/ros2_rolling/src && cd ~/ros2_rolling && vcs import --input https://raw.githubusercontent.com/CursedRock17/RosDepends/main/ros2.repos src && cd ~/ros2_rolling/ && colcon build --symlink-install --packages-skip-by-dep python_qt_binding --event-handlers console_direct+`
 
+Building `rqt`:
+  ```
+  colcon build --symlink-install --packages-ignore qt_gui_cpp rqt_gui_cpp
+```
+
 Then run:
   - `. ~/ros2_rolling/install/setup.zsh`
 
