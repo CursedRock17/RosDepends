@@ -7,10 +7,6 @@ Here ~/ros2_rolling is the location of my ROS 2 source install, so swap that out
 
 Before building run the following command:
   - `brew uninstall orocos-kdl`
-  
-Additional Package Commands for Debuggig:
-  - --packages-up-to
-  - --packages-ignore
 
 `cd .. && rm -rf ros2_rolling && mkdir -p ~/ros2_rolling/src && cd ~/ros2_rolling && vcs import --input https://raw.githubusercontent.com/CursedRock17/RosDepends/main/ros2.repos src && cd ~/ros2_rolling/ && colcon build --symlink-install --packages-skip-by-dep python_qt_binding --event-handlers console_direct+`
 
