@@ -427,7 +427,7 @@ repositories:
     type: git
     url: https://github.com/ros2/yaml_cpp_vendor.git
     version: rolling
-  ros/catkin
+  ros/catkin:
     type: git
     url: https://github.com/ros/catkin.git
     version: noetic-devel
